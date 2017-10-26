@@ -6,4 +6,7 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+    <remove-node path="/api/package[@name='com.stepstone.stepper']/class[@name='StepperLayout']/method[@name='setOrientation' and count(parameter)=1 and parameter[1][@type='int']]"/>
+
 </metadata>
